@@ -1,0 +1,18 @@
+.addForm {
+	text-align: center;
+}
+
+.inputC {
+	margin-bottom: 10px;
+}
+
+.addButton {
+    width: 100px;
+	border: none;
+	background-color:#44c767;
+	cursor: pointer;
+    color:#ffffff;
+    padding:8px 8px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}

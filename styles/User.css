@@ -1,0 +1,28 @@
+.note {
+    width: 160px;
+    text-align: center;
+    margin: 0 auto 10px;
+    padding: 5px;
+    background-color: yellow;
+    transition: box-shadow .3s;
+    position: relative;
+}
+
+.note:hover {
+    background-color: yellow;
+}
+
+.delete-note {
+    position: absolute;
+    font-size: 16px;
+    top:4px;
+    right:8px;
+    display: none;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.note:hover .delete-note {
+    display: block;
+    color: red;
+}
